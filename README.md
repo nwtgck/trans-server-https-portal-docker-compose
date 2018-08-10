@@ -4,9 +4,13 @@
 
 ## Run the server
 
-First, you should modify domain in [docker-compose.yml](docker-compose.yml) (Replace "trans-akka.ml" with your domain). 
+### Step 1
 
-Then, run docker-compose like the following.
+Modify domain in [docker-compose.yml](docker-compose.yml) (Replace "trans-akka.ml" with your domain). 
+
+### Step 2
+
+Run docker-compose like the following.
 
 ```bash
 cd <this repo>
@@ -20,3 +24,5 @@ Wait for long time when you see the following message.
 https-portal_1  | This is going to take a long time
 ...
 ````
+
+Done!
