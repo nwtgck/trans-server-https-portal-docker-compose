@@ -26,3 +26,7 @@ https-portal_1  | This is going to take a long time
 ````
 
 Done!
+
+## Certificate persistence
+
+Your certificates are available in `./docker_volumes/ssl_certs`.
