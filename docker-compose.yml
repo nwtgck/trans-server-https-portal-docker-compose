@@ -17,5 +17,8 @@ services:
 
   trans:
     image: nwtgck/trans-server-akka:v1.17.0
+    restart: always
     expose:
       - "80"
+    volumes:
+      - ./docker_volumes/trans-db:/trans/db

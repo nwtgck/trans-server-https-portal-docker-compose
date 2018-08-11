@@ -27,6 +27,9 @@ https-portal_1  | This is going to take a long time
 
 Done!
 
-## Certificate persistence
+## Data persistence
 
-Your certificates are available in `./docker_volumes/ssl_certs`.
+All data for persistence are under `./docker_volumes`.
+
+* Trans DB - `./docker_volumes/trans-db`
+* Certificates - `./docker_volumes/ssl_certs`.
